@@ -1,0 +1,159 @@
+.form_active_completed{
+    width: 800px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 10px 10px 0 0;
+}
+
+.add_task{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+};
+.add_task :nth-child(1){
+    width: 60px;
+}
+form input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+}
+.add_task_btn{
+    width: 75px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008891;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* ----------------------------completed buttons */
+.buttons_task{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    padding-top: 15px;
+}
+.buttons_task .active_btn{
+    margin-left: 40px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008891;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buttons_task .completed_btn{
+    width: 100px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008891;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.buttons_task .clear_tasks{
+    margin-left: 20px;
+    width: 100px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #008891;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* ----------------------------------------------- */
+@media (min-width:750px )and (max-width:1280px) {
+    .form_active_completed{
+        /* width: 95%; */
+        height: 100px;
+        border: 2px solid red;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .add_task{
+        margin: 0 auto;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+    };
+    .add_task :nth-child(1){
+        width: 60px;
+    }
+    form input{
+        width: 400px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: none;
+    }
+    .add_task_btn{
+        width: 75px;
+        font-size: 12px;
+        border-radius: 5px;
+        border: none;
+        background-color: #008891;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+}
+@media (max-width:750px) {
+    .form_active_completed{
+       margin: 0 auto;
+       width: 350px;
+    }
+    form .add_task{
+       display: flex;
+       justify-content: space-around;
+       width: 350px;
+    }
+    form .buttons_task{
+       display: flex;
+       justify-content: space-around;
+       width: 350px;
+    }
+    .task_value{
+       width: 200px;
+    }
+    .buttons_task{
+        width: 300px;
+     }
+}
+
+@media (min-width: 350px)and(max-width:750px){
+    .form_active_completed{
+        margin: 0 auto;
+        width: 350px;
+     }
+     form .add_task{
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+     }
+     form .buttons_task{
+        display: flex;
+        justify-content: space-around;
+        width: 350px;
+     }
+     
+     .task_value{
+        width: 200px;
+     }
+    }
